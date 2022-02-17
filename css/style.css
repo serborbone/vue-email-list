@@ -1,0 +1,31 @@
+*  {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #aed6f1;
+}
+
+.container div {
+  width: 500px;
+  font-family: sans-serif;
+  background-color: blueviolet;
+  padding: 20px;
+  border: 1px solid #c3c3c3;
+  margin: 50px;
+  color: #fff;
+  list-style-position: inside;
+}  
+
+.list-item {
+  margin-top: 5px;
+  background-color: #b7950b;
+  padding: 12px;
+}
+
+#btn-genera {
+  padding: 10px;
+  margin-top: 20px;
+}

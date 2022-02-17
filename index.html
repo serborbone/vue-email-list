@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width= device-width, initial-scale=1.0">
+
+    <title>Email List</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+  </head>
+
+  <body>
+
+    <div id="app" class="container">
+      <div>
+          <ul>
+            <li v-for="email in emailRandom" type="1" class="list-item">{{email}}</li>
+          </ul>
+
+          <button @click="callList" id="btn-genera">Genera email</button>
+      </div>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+
+  </body>
+</html>
